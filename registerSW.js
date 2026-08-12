@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/firewall-play/sw.js', { scope: '/firewall-play/' })})}
